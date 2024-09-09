@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
   #
 
   # Development Gem dependencies
-  s.add_runtime_dependency('rails', '>= 5.0.0')
-  s.add_runtime_dependency('carrierwave', '>= 0.5.8')
+  s.add_runtime_dependency('rails', '~> 6.1.0')
+  s.add_runtime_dependency('carrierwave', '~> 3.0.7')
 
   if RUBY_ENGINE == "rbx" && RUBY_VERSION >= "2.1.0"
     # Rubinius has it's own dependencies
