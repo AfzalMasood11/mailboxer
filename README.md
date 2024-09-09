@@ -35,7 +35,7 @@ Installation
 Add to your Gemfile:
 
 ```ruby
-gem 'mailboxer'
+gem 'mailboxer', git: 'https://github.com/AfzalMasood11/mailboxer.git', branch: 'master'
 ```
 
 Then run:
